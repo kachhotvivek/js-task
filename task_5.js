@@ -1,18 +1,14 @@
 function getTopStudentsByCity() {
     // Filter students who scored more than 75 marks
     console.log(filteredStudents = students.filter(student => student.marks > 75));
-   
-    
+
     // Sort the filtered students by their names in alphabetical order
     console.log(students.sort((a, b) => a.name.localeCompare(b.name)));
-    
 
     // Extract the names of students from the specified city
-    console.log( students
+    console.log(students
         .filter(student => student.city.toLowerCase() === city.toLowerCase())
         .map(student => student.name));
-    
-    
 }
 
 // Example usage

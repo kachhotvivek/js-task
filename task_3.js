@@ -14,11 +14,7 @@ function user() {
     const newscour =  Number(score);
     const formetedscor = newscour.toFixed(2);
 
-    console.log(`Hello  ${uppername}, your score is ${formetedscor}  `);
+        console.log(`Hello ${uppername},  your score is ${formetedscor}  `);
 
 }
 console.log(user());
-
-
-
-
