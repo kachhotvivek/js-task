@@ -17,4 +17,4 @@ function user() {
         console.log(`Hello ${uppername},  your score is ${formetedscor}  `);
 
 }
-console.log(user());
+user();

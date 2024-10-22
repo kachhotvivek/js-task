@@ -13,7 +13,7 @@ function date() {
     const month  = String(newDate.getMonth() + 1);
     const year  = String(newDate.getFullYear());
 
-    console.log(`${date}/${month}/${year}`);
+    console.log(`${date}-${month}-${year}`);
 
     // The full current date in a customized format using toLocaleDateString() with the options
     // { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' } for your locale.
